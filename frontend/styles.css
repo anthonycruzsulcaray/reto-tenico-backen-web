@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+textarea, input, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.result {
+    background: #ffffff; /* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+    border: 2px solid #007BFF; /* Borde azul */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-top: 20px; /* Espaciado superior */
+    font-size: 16px; /* Tamaño de fuente */
+    line-height: 1.6; /* Altura de línea */
+    color: #333; /* Color del texto */
+    overflow-x: auto; /* Scroll horizontal si es necesario */
+}
+.result h3 {
+    color: #007BFF; /* Color del título */
+    margin-bottom: 15px; /* Espaciado inferior */
+}
+.result p {
+    margin: 10px 0; /* Espaciado entre párrafos */
+}
